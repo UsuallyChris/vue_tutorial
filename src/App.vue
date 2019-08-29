@@ -1,15 +1,17 @@
 <template>
   <div id="app">
-    <h1>Hello World</h1>
+    <Todos />
   </div>
 </template>
 
 <script>
 
+import Todos from './components/Todos';
+
 export default {
   name: 'app',
   components: {
-
+    Todos
   },
   data() {
     return {
