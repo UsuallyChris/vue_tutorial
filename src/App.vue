@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <h1>{{ msg }}</h1>
+    <h1>Hello World</h1>
   </div>
 </template>
 
@@ -13,7 +13,23 @@ export default {
   },
   data() {
     return {
-      msg: 'Hello'
+      todos: [
+        {
+          id: 1,
+          title: 'Todo One',
+          completed: false
+        },
+        {
+          id: 2,
+          title: 'Todo Two',
+          completed: true
+        },
+        {
+          id: 3,
+          title: 'Todo Three',
+          completed: false
+        }
+      ]
     }
   }
 }
